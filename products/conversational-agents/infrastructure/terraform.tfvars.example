@@ -1,0 +1,25 @@
+# products/conversational-agents/infrastructure/terraform.tfvars.example
+
+# --- Required Variables ---
+
+# GCP Project Configuration
+project_id = "your-gcp-project-id" # Replace with your Google Cloud Project ID
+
+# GCS Bucket for Terraform State (Create this bucket manually first)
+gcs_bucket_tf_state = "your-unique-tf-state-bucket-name" # Replace with your GCS bucket name
+
+# Git Repository for Agent Definition (using HTTPS clone URL)
+# Example: "https://github.com/ffeldhaus/ces-starter-pack.git" (or your fork/repo)
+# This repo should contain the exported agent structure under a designated path (e.g., 'industries/cymbal-retail/agent/')
+git_repo_url = "https://github.com/ffeldhaus/ces-starter-pack.git" # Replace if using a different repo
+
+# --- Optional Variables (Defaults are often suitable) ---
+
+# region     = "us-central1"
+# agent_name = "Cymbal Retail Agent"
+# agent_language_code = "en"
+# agent_time_zone = "America/New_York"
+# git_branch = "main"
+# enable_apis = true
+
+# Add more variables here as needed for specific features
