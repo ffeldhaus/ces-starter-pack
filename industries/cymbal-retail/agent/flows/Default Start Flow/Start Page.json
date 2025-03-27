@@ -1,0 +1,14 @@
+{
+    "displayName": "Start Page",
+    "entryFulfillment": {
+      "messages": [
+        {
+          "text": {
+            "text": [
+              "Hi! This is the Cymbal Retail virtual assistant. How can I help you today? (e.g., check order status, find store hours, product info)"
+            ]
+          }
+        }
+      ]
+    }
+  }

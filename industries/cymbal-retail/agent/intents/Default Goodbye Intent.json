@@ -1,0 +1,43 @@
+{
+    "displayName": "Default Goodbye Intent",
+    "trainingPhrases": [
+      {
+        "parts": [
+          {
+            "text": "Goodbye"
+          }
+        ],
+        "repeatCount": 1,
+        "id": "tp1"
+      },
+      {
+        "parts": [
+          {
+            "text": "Bye"
+          }
+        ],
+        "repeatCount": 1,
+        "id": "tp2"
+      },
+      {
+        "parts": [
+          {
+            "text": "See you later"
+          }
+        ],
+        "repeatCount": 1,
+        "id": "tp3"
+      },
+      {
+        "parts": [
+          {
+            "text": "Thanks bye"
+          }
+        ],
+        "repeatCount": 1,
+        "id": "tp4"
+      }
+    ],
+    "isFallback": false,
+    "priority": 500000
+  }

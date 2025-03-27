@@ -1,0 +1,16 @@
+{
+    "displayName": "Cymbal Retail Agent",
+    "defaultLanguageCode": "en",
+    "timeZone": "America/New_York",
+    "enableStackdriverLogging": true,
+    "enableInteractionLogging": true,
+    "advancedSettings": {
+      "loggingSettings": {
+        "enableStackdriverLogging": true,
+        "enableInteractionLogging": true
+      }
+    },
+    "speechToTextSettings": {
+      "enableSpeechAdaptation": true
+    }
+  }

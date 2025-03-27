@@ -1,0 +1,43 @@
+{
+    "displayName": "Default Start Flow",
+    "nluSettings": {
+      "modelType": "MODEL_TYPE_ADVANCED",
+      "classificationThreshold": 0.3
+    },
+    "eventHandlers": [
+      {
+        "event": "sys.no-match-default",
+        "triggerFulfillment": {
+          "messages": [
+            {
+              "text": {
+                "text": [
+                  "I didn't understand that. Can you try rephrasing?",
+                  "Sorry, I missed that. Could you say it again?",
+                  "I'm not sure I follow. What did you mean?"
+                ]
+              }
+            }
+          ]
+        },
+        "name": "builtin_event_handler_no_match_default"
+      },
+      {
+        "event": "sys.no-input-default",
+        "triggerFulfillment": {
+          "messages": [
+            {
+              "text": {
+                "text": [
+                  "Is there anything else I can help with?",
+                  "Can I help with anything else?",
+                  "What else can I do for you?"
+                ]
+              }
+            }
+          ]
+        },
+        "name": "builtin_event_handler_no_input_default"
+      }
+    ]
+  }

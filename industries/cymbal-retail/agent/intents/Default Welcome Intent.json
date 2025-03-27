@@ -1,0 +1,43 @@
+{
+    "displayName": "Default Welcome Intent",
+    "trainingPhrases": [
+      {
+        "parts": [
+          {
+            "text": "Hi"
+          }
+        ],
+        "repeatCount": 1,
+        "id": "tp1"
+      },
+      {
+        "parts": [
+          {
+            "text": "Hello"
+          }
+        ],
+        "repeatCount": 1,
+        "id": "tp2"
+      },
+      {
+        "parts": [
+          {
+            "text": "Good morning"
+          }
+        ],
+        "repeatCount": 1,
+        "id": "tp3"
+      },
+      {
+        "parts": [
+          {
+            "text": "Hey there"
+          }
+        ],
+        "repeatCount": 1,
+        "id": "tp4"
+      }
+    ],
+    "isFallback": false,
+    "priority": 500000
+  }
